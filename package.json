@@ -9,7 +9,7 @@
   "scripts": {
     "build": "rm lib/*; ./node_modules/typescript/bin/tsc",
 		"page": "./node_modules/typescript/bin/tsc -m amd --outFile public/dist.js -d false --sourceMap false",
-    "prepublish-on-install": "npm run build"
+    "prepare": "npm run build"
   },
   "devDependencies": {
     "typescript": "^2.3.3"
