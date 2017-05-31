@@ -4,14 +4,14 @@
 	"typings": "./lib/index.d.ts",
   "repository": "github.com/iskolbin/tsnow",
   "description": "Date.now polyfill from Tween.js ported to TS",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "scripts": {
     "build": "rm lib/*; ./node_modules/typescript/bin/tsc",
 		"page": "./node_modules/typescript/bin/tsc -m amd --outFile public/dist.js -d false --sourceMap false",
-    "prepublish": "npm run build"
+    "prepublish-on-install": "npm run build"
   },
   "devDependencies": {
-    "typescript": "^2.3.2"
+    "typescript": "^2.3.3"
   }
 }
