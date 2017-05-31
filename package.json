@@ -4,7 +4,7 @@
 	"typings": "./lib/index.d.ts",
   "repository": "github.com/iskolbin/tsnow",
   "description": "Date.now polyfill from Tween.js ported to TS",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "license": "MIT",
   "scripts": {
     "build": "rm lib/*; ./node_modules/typescript/bin/tsc",
